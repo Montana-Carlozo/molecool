@@ -1,7 +1,14 @@
 """A python package for analyzing and visualizing xyz files."""
 
 # Add imports here
-from .functions import *
+from .functions import canvas
+from .measure import calculate_distance, calculate_angle
+from .visualize import draw_molecule, bond_histogram
+from .molecule import build_bond_list, calculate_molecular_mass
+
+
+from . import io
+# would call this with molecool.io.function_name
 
 # Handle versioneer
 from ._version import get_versions
