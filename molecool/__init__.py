@@ -9,7 +9,7 @@ from molecool.atom_data import atomic_weights, atom_colors
 from molecool.visualization import draw_molecule 
 
 from molecool import io
-from molecool.molecules import bond_histogram, build_bond_list
+from molecool.molecules import bond_histogram, build_bond_list, compute_molecular_mass
 
 
 from ._version import __version__
